@@ -1,4 +1,4 @@
-header("Access-Control-Allow-Origin: *");
+<?php header("Access-Control-Allow-Origin: *");
  
 $host = "ewp-0.cl8c2gu6g6li.us-east-1.rds.amazonaws.com";
 $dbname = "ewpdb";
@@ -19,3 +19,4 @@ if ($entries > 0){
     echo json_encode("Retrieval Failed");
 }
 
+?>
