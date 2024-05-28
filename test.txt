@@ -1,0 +1,1 @@
+Testing wget command to get text file.
