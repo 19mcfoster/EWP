@@ -1,3 +1,4 @@
+{
 <?php header("Access-Control-Allow-Origin: *");
  
 $host = "ewp-0.cl8c2gu6g6li.us-east-1.rds.amazonaws.com";
@@ -20,3 +21,4 @@ if ($entries > 0){
 }
 
 ?>
+}
